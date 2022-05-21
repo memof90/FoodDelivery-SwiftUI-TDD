@@ -14,6 +14,9 @@
 		8DA6A26B283867EE000F5808 /* foodDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6A26A283867EE000F5808 /* foodDeliveryTests.swift */; };
 		8DA6A275283867EE000F5808 /* foodDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6A274283867EE000F5808 /* foodDeliveryUITests.swift */; };
 		8DA6A277283867EE000F5808 /* foodDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6A276283867EE000F5808 /* foodDeliveryUITestsLaunchTests.swift */; };
+		8DA6A28528386EA7000F5808 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6A28428386EA7000F5808 /* Food.swift */; };
+		8DA6A28828386EDD000F5808 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6A28728386EDD000F5808 /* Helpers.swift */; };
+		8DA6A28B28386F6E000F5808 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6A28A28386F6E000F5808 /* FoodData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		8DA6A270283867EE000F5808 /* foodDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA6A274283867EE000F5808 /* foodDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodDeliveryUITests.swift; sourceTree = "<group>"; };
 		8DA6A276283867EE000F5808 /* foodDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DA6A28428386EA7000F5808 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		8DA6A28728386EDD000F5808 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		8DA6A28A28386F6E000F5808 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		8DA6A258283867EB000F5808 /* foodDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				8DA6A28928386F5B000F5808 /* Utils */,
+				8DA6A28628386ED1000F5808 /* Helpers */,
+				8DA6A28328386E90000F5808 /* Model */,
 				8DA6A259283867EB000F5808 /* foodDeliveryApp.swift */,
 				8DA6A25B283867EB000F5808 /* ContentView.swift */,
 				8DA6A25D283867ED000F5808 /* Assets.xcassets */,
@@ -125,6 +134,30 @@
 				8DA6A276283867EE000F5808 /* foodDeliveryUITestsLaunchTests.swift */,
 			);
 			path = foodDeliveryUITests;
+			sourceTree = "<group>";
+		};
+		8DA6A28328386E90000F5808 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DA6A28428386EA7000F5808 /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DA6A28628386ED1000F5808 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8DA6A28728386EDD000F5808 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8DA6A28928386F5B000F5808 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8DA6A28A28386F6E000F5808 /* FoodData.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +292,9 @@
 			files = (
 				8DA6A25C283867EB000F5808 /* ContentView.swift in Sources */,
 				8DA6A25A283867EB000F5808 /* foodDeliveryApp.swift in Sources */,
+				8DA6A28528386EA7000F5808 /* Food.swift in Sources */,
+				8DA6A28B28386F6E000F5808 /* FoodData.swift in Sources */,
+				8DA6A28828386EDD000F5808 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
